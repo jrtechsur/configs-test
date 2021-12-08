@@ -1,0 +1,14 @@
+metadata:
+  form: "N-400"
+  title: "Application for Naturalization"
+  version: "1.0.0"
+  created: "2021-12-07"
+  ombNo: "1615-0082"
+contents:
+  type: "Case Details Section"
+  items:
+    items:
+    - { label: "Case Party", widget: "CaseParty" }
+    - { label: "Prior Case", widget: "CaseParty" }
+    - { label: "Evidence", widget: "CaseEvidence" }
+    - { label: "Certificate Data", widget: "CaseParty" }
